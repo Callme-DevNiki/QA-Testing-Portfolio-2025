@@ -1,0 +1,23 @@
+{
+  "name": "Login Automation Test",
+  "commands": [
+    {
+      "command": "open",
+      "target": "/login"
+    },
+    {
+      "command": "type",
+      "target": "id=email",
+      "value": "test@test.com"
+    },
+    {
+      "command": "type",
+      "target": "id=password",
+      "value": "123456"
+    },
+    {
+      "command": "click",
+      "target": "id=loginButton"
+    }
+  ]
+}
